@@ -1,0 +1,69 @@
+Simple Monkeybars Skeleton App
+-------------------------------------------------------------------------------
+
+A very simple JRuby Monkeybars app to get you up and running quickly.
+
+Monkebars? 
+
+Monkeybars is pretty cool. It allows you to create cross platform 
+desktop applications using Swing on top of JRuby. It provides an MVC
+framework a bit like Rails. No Java knowledge is required either (well almost!).
+
+
+Install instructions
+-------------------------------------------------------------------------------
+
+Grab a copy of this git repo and then...
+
+Fire up NetBeans 
+
+Setup the project
+1. File > New Project. Choose Java category > Java Project with existing sources
+2. Give your app a name and set the project folder to where you created your app [hit next]
+3. Existing sources - choose the src directory in your app [hit finish]
+
+Add the libraries
+1. Expand the app project tree (usually on the right hand side)
+2. Right click the Libraries folder. Choose ‘Add Jar/Folder’ 
+3. Select and add all of the jars inside of the lib/java folder.
+
+Run the App
+1. Click the run (green play) button. This will build and run your app.
+2. A prompt will first appear and ask which file you wish to use for the main.class.
+   Choose ‘org.rubyforge.rawr.Main’
+3. All going to plan the app will now start!
+
+
+Package your app and distribute for Mac, Windows, or Linux variants (via a Jar)
+-------------------------------------------------------------------------------
+
+Open a terminal to where the app is located. And run one of the following:
+
+rake rawr:bundle:app # Bundles the jar from rawr:jar into a native Mac OS X application (.app)
+rake rawr:bundle:exe # Bundles the jar from rawr:jar into a native Windows application (.exe)
+rake rawr:jar  
+
+
+Pre-install Requirements
+---------------------------------------------
+JRuby 1.1.5  (or greater)
+NetBeans 6.1 (or greater)
+
+Gems:
+
+monkeybars 0.6.2
+rawr       1.1.0
+
+
+About
+---------------------------------------------
+
+This sample app was created by Martin Sadler
+http://www.beyondthetype.com
+
+
+For more information on Monkeybars visit:
+http://monkeybars.rubyforge.org
+
+
+

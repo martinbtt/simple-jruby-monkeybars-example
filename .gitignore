@@ -1,0 +1,9 @@
+build/*
+build.xml
+build_configuration.yaml
+dist/*
+manifest.mf
+Info.plist
+nbproject/*
+package/*
+.DS_Store
